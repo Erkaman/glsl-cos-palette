@@ -11,9 +11,9 @@ vec3 cosPalette(  float t,  vec3 a,  vec3 b,  vec3 c, vec3 d ){
 where `a,b,c,d` are RGB-colors. This function can be used to make very compact color palettes.
 A simple editor for making such palettes is provided [here](http://erkaman.github.io/glsl-cos-palette/).
 
-If you set `t` to be the value of some noise function(say, Perlin noise), you can use this
-palette to make simple procedural textures. In the fragment shader, we can easily
-procedurally generate a texture by doing something like
+
+The function `cosPalette(t, a, b,  c, d )`, which is the palette, will basically assign a color to every value `t`, which is in the range `[0,1]`. So if you set `t` to be the value of some noise function(say, Perlin noise) in range `[0,1]`, you can use this
+palette to make simple procedural textures. The palette will basically colorize the noise. In the fragment shader, we can easily procedurally generate a texture by doing something like
 
 ```glsl
     float t = noise(vPosition);
