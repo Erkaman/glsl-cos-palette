@@ -26,28 +26,30 @@ Credit goes to [Inigo Quilez](http://www.iquilezles.org/www/articles/palettes/pa
 
 Below are some examples of palettes
 
-<img src="images/f.png" width="356" height="366" />
-
 `cosPalette(t,vec3(0.2,0.7,0.4),vec3(0.6,0.9,0.2),vec3(0.6,0.8,0.7),vec3(0.5,0.1,0.0))`
 
 
-<img src="images/g.png" width="356" height="366" />
+<img src="images/f.png" width="356" height="366" />
+
 
 `cosPalette(t,vec3(0.2,0.5,0.3),vec3(0.0,0.5,0.7),vec3(1.0,1.0,1.0),vec3(0.0,0.3,0.7))`
 
+<img src="images/g.png" width="356" height="366" />
 
-<img src="images/h.png" width="356" height="366" />
 
 `cosPalette(t,vec3(0.6,0.0,0.0),vec3(1.0,0.0,0.0),vec3(1.0,0.0,0.0),vec3(1.0,0.0,0.0))`
 
+<img src="images/h.png" width="356" height="366" />
 
-<img src="images/j.png" width="356" height="366" />
 
 `cosPalette(t,vec3(1.0,0.4,0.0),vec3(0.4,0.8,0.0),vec3(0.5,0.3,0.9),vec3(0.9,0.6,0.9))`
 
+<img src="images/j.png" width="356" height="366" />
+
+
+`cosPalette(t,vec3(0.4,0.3,0.1),vec3(0.1,0.1,0.1),vec3(0.4,0.4,0.4),vec3(0.0,0.0,0.0))`
 
 <img src="images/l.png" width="356" height="366" />
 
-`cosPalette(t,vec3(0.4,0.3,0.1),vec3(0.1,0.1,0.1),vec3(0.4,0.4,0.4),vec3(0.0,0.0,0.0))`
 
 
