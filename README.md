@@ -1,4 +1,4 @@
-# cos-palette
+# glsl-cos-palette
 
 `cosPalette` is a simple shader function that is defined as
 
@@ -21,6 +21,8 @@ palette to make simple procedural textures. The palette will basically colorize 
 ```
 
 Credit goes to [Inigo Quilez](http://www.iquilezles.org/www/articles/palettes/palettes.htm) for coming up with this technique.
+
+If even more advanced palettes are desired, they can be created using [glsl-gradient-palette](https://github.com/Erkaman/glsl-gradient-palette)
 
 ## Examples
 
